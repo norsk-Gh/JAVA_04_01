@@ -1,0 +1,33 @@
+package com.javalec.base;
+
+public class Main_Gugu {
+public static void main(String[] args) {
+	
+
+	
+	
+	int temp0 = 0;
+	
+	for(int temp2=1; temp2<=9; temp2++) {
+		for(int temp1=2; temp1<=9; temp1++) {
+		}
+	}
+	System.out.println(temp1 + " X " + temp2 + " = " + (t*t));
+		
+		       
+		
+		
+		for(int num=i; num<=9; i\n)
+	}
+	
+	
+	
+		
+		
+		
+	// 출력시키기!	
+	
+	
+	
+}
+}

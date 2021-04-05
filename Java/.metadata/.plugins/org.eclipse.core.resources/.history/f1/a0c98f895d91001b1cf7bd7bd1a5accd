@@ -1,0 +1,13 @@
+package com.javalec.base;
+
+public class Delf_Grade {
+public static void main(String[] args) {
+	
+// DELF(프랑스어 자격시험) 합격점수 프로그램
+	
+System.out.println("DELF 시험은 총 100점 중 60점 이상 취득해야 합격처리가 됩니다.");
+System.out.println("시험은 쓰기와 구술 두 영역이 있으며, 한 영역이라도 40점 미만일 경우 과락처리됩니다.");
+System.out.println("쓰기는 독해(25점)와 작문(25점), 구술은 듣기(25점)와 말하기(25점)으로 구성되어 있습니다.");
+
+}
+}

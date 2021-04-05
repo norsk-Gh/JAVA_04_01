@@ -1,0 +1,31 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Practise_Bmi {
+
+	public static void main(String[] args) {
+		// BMI 구하기 = KG / (신장*신장)
+		
+		//체중입력하기
+		Scanner weight = new Scanner(System.in);
+		
+		System.out.println("BMI(나의 신체질량지수) 알아보기");
+		System.out.println("당신의 체중(kg)을 입력해주세요.");
+		
+		double num1 = weight.nextDouble();
+		
+		Scanner tall = new Scanner(System.in);
+		System.out.println("당신의 신장(cm)을 입력해주세요.");
+		
+		double num2 = tall.nextDouble();           // 처음에 여기 괄호에도 시스템인 넣었다가 오류났음
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

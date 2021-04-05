@@ -1,0 +1,38 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Delf_Grade {
+public static void main(String[] args) {
+	
+// DELF(프랑스어 자격시험) 합격점수 프로그램
+	
+System.out.println("<<DELF 시험 합격기준>>");
+System.out.println("");
+System.out.println("DELF 시험은 총 100점 중 60점 이상 취득해야 합격처리가 됩니다.");
+System.out.println("시험은 쓰기와 구술 두 영역이 있으며, 한 영역이라도 40점 미만일 경우 과락처리됩니다.");
+System.out.println("쓰기는 독해(25점)와 작문(25점), 구술은 듣기(25점)와 말하기(25점)으로 구성되어 있습니다.");
+
+
+
+	Scanner point = new Scanner(System.in);
+		System.out.println("당신의 독해 점수는 몇점입니까? : ");
+		double reading = point.nextDouble();
+		System.out.println("당신의 쓰기 점수는 몇점입니까? : ");
+		double writing = point.nextDouble();
+		System.out.println("당신의 듣기 점수는 몇점입니까? : ");
+		double listning = point.nextDouble();
+		System.out.println("당신의 말하기 점수는 몇점입니까? : ");
+		double speaking = point.nextDouble();
+		
+		double ecrit = reading + writing;
+		double oral = listning + speaking;
+		double total = ecrit + oral;
+		
+	    System.out.println("당신의 점수는 아래와 같습니다.");
+	    System.out.println("1.쓰기영역 : " + ecrit + " 2.구술영역 : " + oral);
+	    System.out.println("총 점수는 : " + total + "입니다.");
+	    
+	    
+}
+}

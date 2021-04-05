@@ -1,0 +1,35 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class practise_Average {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//국어점수 입력
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("국어 점수를 입력하세요!");
+		
+		double korean = scanner.nextDouble();
+ 
+		//영어점수 입력
+		Scanner scanner2 = new Scanner(System.in);
+		
+		System.out.println("영어 점수를 입력하세요!");
+		
+		double english = scanner2.nextDouble();
+		
+		//수학점수 입력
+		Scanner scanner3 = new Scanner(System.in);
+		
+		System.out.println("영어 점수를 입력하세요!");
+		
+		double math = scanner3.nextDouble();
+		
+	   System.out.println("평균점수 : " + ((korean + english + math) / 3));
+		
+	}
+
+}

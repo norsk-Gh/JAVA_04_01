@@ -1,0 +1,26 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Prac_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("단을 입력하세요 : ");
+		int input = scan.nextInt();
+		
+		
+		for(int b = 1; b<=9; b++) {
+			if(b%3 == 0) {
+				System.out.print(input + " X " + b + " = " + (input*b));
+				System.out.println();
+			}else if(b%3 != 0) {
+			System.out.print(input + " X " + b + " = " + (input*b) + "\t");
+			}
+		}	
+
+	}
+}

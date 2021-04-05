@@ -1,0 +1,40 @@
+package com.javalec.base;
+
+public class Main_Gugu {
+public static void main(String[] args) {
+	
+
+	
+	
+	
+
+	
+	for(int temp2=2; temp2<=9; temp2++) {       // 앞자리 숫자
+			
+		for(int temp1=1; temp1<=9; temp1++) {   // 뒷자리 숫자
+			System.out.println(temp2 + " X " + temp1 + " = " + (temp2 * temp1) + "\t");
+			if((temp2 == 9)) {
+				System.out.println("\n");
+			}
+		}
+	}
+		
+		       
+//	if(temp2 == 9) {
+//	}
+		
+		
+//		for(int num=i; num<=9; i\n)
+	}
+	
+	
+	
+		
+		
+		
+	// 출력시키기!	
+	
+	
+	
+}
+

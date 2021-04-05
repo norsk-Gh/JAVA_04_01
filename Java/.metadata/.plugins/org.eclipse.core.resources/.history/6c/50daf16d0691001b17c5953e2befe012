@@ -1,0 +1,27 @@
+package com.jalavec.variable_03;
+
+public class MainClass {
+public static void main(String[] args) {
+	//연산자 종류별 출력
+		
+	int i = 10;
+	int j = 2, k = 5 ;
+	
+	System.out.println("<- 산술 연산자 ->");
+	System.out.println("덧셈 : " + i + " + " + j + " = " + (i+j));
+	System.out.println("뺄셈 : " + i + " - " + j + " = " + (i-j));
+	System.out.println("곱셈 : " + i + " * " + j + " = " + (i*j));
+	System.out.println("나눈 몫 : " + i + " / " + j + " = " + (i/j));
+	System.out.println("나눈 나머지 : " + i + " % " + j + " = " + (i%j));    // 나누고 나서 남은 값은 %로 표기한다! 오늘 나온거  (아주아주 많이 쓴다고 합니다. 홀짝 구분할떄 씁니다.)
+	   // -> 앱에서 토글 한번누르면 어떤거, 두번누르면 어떤거 설정할떄 누른 횟수가 홀짝인지로 해서 만든다고 합니다.
+	
+	System.out.println("<--- 자동 증감 연산자 --->");
+	System.out.println(i+1);
+	System.out.println(i);
+
+
+	
+}
+	
+	
+}

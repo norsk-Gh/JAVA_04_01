@@ -1,0 +1,9 @@
+package com.javalec.base;
+
+public class Main {
+public static void main(String[] args) {
+	
+	System.out.println("apple\nBanana\nGrape");      // \n 이건 한칸 띄게 해주는거!
+	
+}
+}

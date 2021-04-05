@@ -1,0 +1,23 @@
+package com.javalec.base;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	 // 비교문 #1  (조건문, 브랜치등등 으로 불림)
+		
+	int i = 10;   // ~~에 쓰는 변수이다 ( 라고 적어두는게 좋음, 알아보기 쉬우니까)
+	int j = 20;
+	int k = 30;
+	
+	
+	//{}  Scope 범위란 뜻
+	// 밑에if는 조건 충족되면 거쳐가고 아니면 이거 안하고 흘러가는 식으로 할거임
+		if(i > j) {
+			System.out.println("i가 j보다 큽니다.");
+		}
+
+	System.out.println(">>End<<");
+	
+	
+	}
+}

@@ -1,0 +1,14 @@
+package com.javalec.variable_02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "James";  //문자열
+		int num = 10;	   // 정수
+		System.out.println(str + ":" + num);
+
+	}
+
+}

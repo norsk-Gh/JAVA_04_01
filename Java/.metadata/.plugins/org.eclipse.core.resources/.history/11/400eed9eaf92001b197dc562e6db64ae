@@ -1,0 +1,34 @@
+package com.javalec.base;
+
+public class Main_Gugu {
+public static void main(String[] args) {
+
+	
+	// 옆으로 쭉 쓰는건print를 쓰면 된다
+	
+for(int f = 2; f<=9; f++) {
+	System.out.print(f + " X " + 1 + " = " + String.format("%02d", f*1) + "\t");
+}
+	
+	
+	
+	
+	
+		       
+//	if(temp2 == 9) {
+//	}
+		
+		
+//		for(int num=i; num<=9; i\n)
+	
+	
+	
+		
+		
+		
+	// 출력시키기!	
+	
+	
+
+	}
+}

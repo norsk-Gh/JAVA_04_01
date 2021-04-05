@@ -1,0 +1,67 @@
+package com.javalec.base;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	 // 비교문 #1  (조건문, 브랜치등등 으로 불림)
+		
+	int i = 10;   // ~~에 쓰는 변수이다 ( 라고 적어두는게 좋음, 알아보기 쉬우니까)
+	int j = 20;
+	int k = 30;
+	
+	
+	//{}  Scope 범위란 뜻
+	// 밑에if는 조건 충족되면 거쳐가고 아니면 이거 안하고 흘러가는 식으로 할거임
+//		if(i > j) {
+//			System.out.println("i가 j보다 큽니다.");
+//		}
+//
+//	System.out.println(">>End<<");
+	
+
+	//비교문 #2 :i가 j보다 작은경우 얼마나 작다 등등 (비교문으로 입력한 숫자 크기의 차이 구하기)
+	
+//		if(i > j) {      // 여기 조건에 있는거 말고는 전부 엘스에서 걸림 둘중에 하나는 걸린단 소리임
+//			System.out.println("i는 j보다 " + (i-j) + "만큼 큽니다.");	    
+//		} else {
+//			System.out.println("j는 i보다 " + (j-i) + "만큼 큽니다." );
+//			
+//		}
+//		System.out.println(">>>>End<<<<");
+		
+	//비교문 #3 : 비교문으로 같다까지 표현해주는 3중표현 해보
+	
+//		if(i > j) {
+//			System.out.println("i가 j보다 큽니다.");      // 딴길로 안가고 정해진대로만 가게 하는게 잘 짜놓은거임
+//		}else if(i == j) {
+//			System.out.println("i와 j가 같습니다.");			
+//		}else {
+//			System.out.println("i가 j보다 작습니다.");	
+//		}
+//	
+//	
+//			System.out.println(">>>>End<<<<");
+	
+		int price = 5000;
+			
+		if(price > 8000) {
+			System.out.println("너무 비쌉니다.");
+		} else if(price > 5000) {
+			System.out.println("조금 비쌉니다.");
+		} else if(price>3000) {
+			System.out.println("적당한 금액입니다.");
+		} else {     // 엘스는 괄호치고 내용 안쓴다 ! 왜냐 엘스니까
+			System.out.println("싼편입니다.");
+			
+		}
+	 System.out.println"구매하시겠습니까?");
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}

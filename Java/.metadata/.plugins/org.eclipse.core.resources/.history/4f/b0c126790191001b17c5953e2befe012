@@ -1,0 +1,22 @@
+package com.javalec.variable_02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "James";  //문자열
+		int num = 10;	   // 정수
+		double numDouble = 20.2;   // double -> 실수로 변환
+	
+		//젤 위에는 선언하는 것들을 작
+		
+		
+		System.out.println(str + ":" + num);
+		System.out.println(num + num); // 문자열이 하나도 없으면 계산을 해버림!
+		System.out.println((double)num + numDouble);    // 뒤에 실수면 앞에도 가능하면 실수로 맞춰주는게 에러를 줄이는데 좋음
+		System.out.println(num + (int)numDouble);  // 정수출력
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Prac_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// --- 선언 --- //
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Input your number : ");
+		int input = scan.nextInt();
+		int backNum = 1;
+		int backNum2 = 1;
+		// --- 계산 --- //
+		
+			for(int frontNum = input; frontNum<=(input+3); frontNum++) {
+				System.out.print(frontNum + " X " + backNum2 + " = " + (frontNum*backNum2) + "\t");
+         				backNum2 += backNum;
+			}
+		
+		// 한줄 내려가기 //
+		System.out.println();
+	}
+	}
+
+

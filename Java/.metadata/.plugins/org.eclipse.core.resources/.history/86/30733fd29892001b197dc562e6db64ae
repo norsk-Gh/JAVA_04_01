@@ -1,0 +1,83 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// ** 범위가 정해져있으면 For가 편하고, 어디가 반복되어있는지 잘 파악해야한다.
+		// 파라미터와 인덱스?
+		// 무엇을 반복할건지를 먼저 생각하고 접근하자
+		
+		
+//		for(int i=1; i<=9; i++) {
+//			System.out.println(i);     // 이런식으로 하나씩 테스트해가면서 접근하면 좋다.
+//			
+//			
+//		}
+		//-----------------//의심적인거 하나씩 처리해가면서 진행하는게 좋다.
+		
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("단을 입력하세요 : ");
+//		int dan = scan.nextInt();
+//		
+//		
+//		for(int i=1; i<=9; i++) {
+//			System.out.println(dan + " X " + i + "=" + String.format("%2d",(dan*i)));     // 이런식으로 하나씩 테스트해가면서 접근하면 좋다.
+			                                                   // 이 의미가.. 난 두 자리수의 10진수를 쓸거야! 5d 로 쓰면 5자리로 크게 뜸! 특히 돈 관련 금융권 쓸때 꼭 써줘야합니다.
+															   // %02d <-- 이건 비어있는 앞자리는0으로 채우겠다는 소리임!
+															   // 자바 스트링 포맷 ! 꼭 찾아서 배우기.
+//			
+//		for(int dan = 2; dan<=9; dan++) {
+//			for(int i=1; i<=9; i++) {
+//				System.out.println(dan + " X " + i + " = " + (dan*i));      // 2중 포문  // 윗 포가 2가 먼저들어와서 안에 쭉~ 1부터 9까지 돌고 또 3으로 하나 더 들어와서 한다! 자주씀
+//																			// 안에 포문부터 잘 돌아가는지 먼저 잘 해보고서 들어가는게 좋음
+//			}
+//		
+//		}
+//		
+//		for(int dan = 2; dan<=9; dan++) {
+//			System.out.println("<---" + dan +"단--->");
+//		
+//			for(int i=1; i<=9; i++) {
+//				System.out.println(dan + " X " + i + " = " + (dan*i));      // 2중 포문  // 윗 포가 2가 먼저들어와서 안에 쭉~ 1부터 9까지 돌고 또 3으로 하나 더 들어와서 한다! 자주씀
+//				
+//			}
+//			System.out.println("---------------");    // 이런식으로 써주면 한 단이 끝나면 줄을 쳐주는거임! 데코는 무궁무진하다..
+//			
+
+		// 구구단 시작 범위 입력 : 2 
+		// 구구단 끝 범위 입력 : 4
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("구구단 시작 범위를 입력해주세요 : ");
+		int StartNum = scan.nextInt();
+		
+		System.out.print("구구단 끝 범위를 입력해주세요 : ");
+		int EndNum = scan.nextInt();
+		
+		if (StartNum > EndNum) {
+			System.out.println("잘못 입력하셨습니다.");
+			
+			
+		}else {
+			for(int dan = StartNum; dan<=EndNum; dan++) {
+				System.out.println("<---" + dan +"단--->");
+				
+				for(int i=1; i<=9; i++) {
+					System.out.println(dan + " X " + i + " = " + String.format("%2d", (dan*i)));      // 2중 포문  // 윗 포가 2가 먼저들어와서 안에 쭉~ 1부터 9까지 돌고 또 3으로 하나 더 들어와서 한다! 자주씀
+					
+				}
+				System.out.println("---------------");    // 이런식으로 써주면 한 단이 끝나면 줄을 쳐주는거임! 데코는 무궁무진하다..
+				
+		}
+		
+		// 하나하나씩 만들어가는 생각을 해야합니다 무조건
+		
+		
+		
+	}
+
+}
+}

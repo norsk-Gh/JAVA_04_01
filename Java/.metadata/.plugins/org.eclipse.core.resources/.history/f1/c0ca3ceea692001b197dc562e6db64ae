@@ -1,0 +1,11 @@
+package com.javalec.base;
+
+public class Main {
+public static void main(String[] args) {
+	
+	System.out.println("apple\nBanana\nGrape");      // \n 이건 한칸 띄게 해주는거!
+	System.out.println("apple\tBanana\tGrape");      // \t : 간격을 좀 벌려주는
+	System.out.println("apple\t"Banana\tGrape");      // \t : 간격을 좀 벌려주는
+	
+}
+}

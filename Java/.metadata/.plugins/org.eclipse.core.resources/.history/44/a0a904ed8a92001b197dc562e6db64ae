@@ -1,0 +1,29 @@
+package com.javalec.base;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// ** 범위가 정해져있으면 For가 편하고, 어디가 반복되어있는지 잘 파악해야한다.
+		// 파라미터와 인덱스?
+		// 무엇을 반복할건지를 먼저 생각하고 접근하자
+		
+		
+//		for(int i=1; i<=9; i++) {
+//			System.out.println(i);     // 이런식으로 하나씩 테스트해가면서 접근하면 좋다.
+//			
+//			
+//		}
+		//-----------------//의심적인거 하나씩 처리해가면서 진행하는게 좋다.
+		
+		for(int i=1; i<=9; i++) {
+			System.out.println("5 X " + i);     // 이런식으로 하나씩 테스트해가면서 접근하면 좋다.
+			
+			
+		}
+		
+
+		
+		
+	}
+
+}

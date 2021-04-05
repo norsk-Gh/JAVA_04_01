@@ -1,0 +1,32 @@
+package com.javalec.base;
+
+public class Main_Gugu {
+public static void main(String[] args) {
+	
+	    int backNum = 1 ;
+
+		for	(int back = 1; back<=9; back++) {
+			backNum += back;
+			System.out.println(2 + " X " + backNum + " = " + (2*backNum) + "\t");
+}
+	
+
+		
+		       
+//	if(temp2 == 9) {
+//	}
+		
+		
+//		for(int num=i; num<=9; i\n)
+	
+	
+	
+		
+		
+		
+	// 출력시키기!	
+	
+	
+
+	}
+}

@@ -1,0 +1,23 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class Prac_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Input your number : ");
+		int input = scan.nextInt();
+		
+	
+		
+		for(int f = input; f<=(input+4); f++) {
+			System.out.println(f + " X " + 1 + " = " + String.format("%02d", (f*1)));
+		}
+		
+		
+	}
+
+}
